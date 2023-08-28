@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "restartAndDelay",
+            "type": "shell",
+            "command": "sh",
+            "args": [
+                "-c",
+                "docker restart debian-emmy-apisix-1 && sleep 3"
+            ]
+        }
+    ]
+}
