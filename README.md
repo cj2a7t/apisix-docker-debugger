@@ -1,4 +1,4 @@
-[中文文档]([https://github.com/apache/apisix/issues/7313](https://github.com/cj2a7t/apisix-docker-debugger/blob/master/debian-emmy/docs/README-CN.md))
+[中文文档](https://github.com/cj2a7t/apisix-docker-debugger/blob/master/debian-emmy/docs/README-CN.md))
 ## How to Debug APISIX in a Containerized Environment
 ### 1.Why Debug in a Containerized Environment?
 Due to issues such a[Mac M1 make run error ](https://github.com/apache/apisix/issues/7313) differences in local source code installation methods for various development environments (Windows, Ubuntu, macOS, Mac M1, etc.), and the lack of a straightforward way for step-by-step debugging, setting up a development environment for APISIX with debugging capabilities requires a lot of scattered information. To address this, a fast way to establish a local development environment for APISIX is provided in the APISIX Docker repository based on debian-dev. The following guide demonstrates setting up an APISIX development environment using VS Code.
