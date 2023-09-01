@@ -13,7 +13,7 @@ services:
     # [Debian Emmy]: This is a built emmy debug image that includes /usr/local/emmy.so. 
     # [Debian Emmy]: If there is no special version available, you can use this version directly.
     # [Debian Emmy]: If there is a need for customization.
-    # [Debian Emmy]: TAG: arm or amd
+    # [Debian Emmy]: TAG: arm or amd https://hub.docker.com/r/coderjia/apisix-emmy/tags
     image: "coderjia/apisix-emmy:${TAG}"
 ```
 In the Dockerfile under the image directory in the debian-emmy folder, add the following lines to generate the emmy_core.so file directly into the /usr/local/emmy/ directory within the container. This is useful if you want to upgrade the debug version of Emmy later. Then build the new image.
