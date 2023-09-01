@@ -13,7 +13,7 @@ services:
     # [Debian Emmy]: If there is no special version available, you can use this version directly.
     # [Debian Emmy]: If there is a need for customization.
     # [Debian Emmy]: Build an image version based on the ./image/Dockerfile
-    # [Debian Emmy]: TAG: arm or amd
+    # [Debian Emmy]: TAG: arm or amd https://hub.docker.com/r/coderjia/apisix-emmy/tags
     image: "coderjia/apisix-emmy:${TAG}"
 ```
 在Debian-Emmy文件夹image目录下的Dockerfile，相对于官方的debian-dev新增如下内容，主要目的是将`emmy_core.so`文件直接生成到容器内的/usr/local/emmy/目录下，如果后续想升级emmy的debug版本，可以自行调整。然后构建出新的镜像。
