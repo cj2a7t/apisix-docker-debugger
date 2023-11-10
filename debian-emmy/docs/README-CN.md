@@ -1,4 +1,4 @@
-## 如何在容器化环境调试PISIX
+## 如何在容器化环境调试APISIX
 ### 1.为什么要在容器化环境调试？
 由于[Mac M1 make run error ](https://github.com/apache/apisix/issues/7313)、每个开发环境(windows、ubuntu、mac、mac m1等等)本地源码安装方式的差异、没有单步调试的直接方式等问题。我们想搭建一套可以单步调试的Apisix开发环境，需要查阅很多资料，而且资料特别分散。所以想在Apisix Dokcer仓库基于debian-dev提供一种快速的搭建本地开发环境的方式。下面以VS code为例来搭建一套Apisix的开发环境。
 ### 2.开发环境全景图
